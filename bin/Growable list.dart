@@ -5,6 +5,10 @@ void main(){
   num.add(67);
   num.add(12);
 
+  //Element insertion technique 2
+  List<String> countries = ["USA","BANGLADESH"];
+  countries.forEach((i)=>print(i));
+
   //print all the elements
   num.forEach((i)=>print(i));
 
